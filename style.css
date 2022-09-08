@@ -1,0 +1,319 @@
+@import 'utilities.css';
+:root {
+    --color1: rgb(195, 43, 43);
+    --color2: rgb(5, 22, 36);
+    --color3: rgb(74, 206, 227);
+    --color4: yellow;
+    --color5: white;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+    /*height: 1000px;*/
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smothing: antialiased;
+}
+
+header {
+    background: var(--color2);
+    /* border: 2px solid rgb(57, 214, 246);
+    position: fixed;*/
+    height: 0px;
+    width: 100%;
+}
+
+.container {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 80%, 0 100%);
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.left a {
+    color: var(--color5);
+    text-decoration: none;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    transition: all.3s ease;
+}
+
+.left a:hover {
+    color: var(--color1);
+}
+
+.logo img {
+    width: 89px;
+    height: 51px;
+    border: 3px solid rgb(157, 199, 241);
+    border-radius: 90px;
+}
+
+header nav {
+    padding: 20rem 0;
+}
+
+.logo {
+    margin-right: 3rem;
+}
+
+.pic {
+    padding: 3rem 0;
+}
+
+.pic img {
+    width: 399px;
+    border-radius: 16px;
+}
+
+.right {
+    color: var(--color5);
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+.right h6 {
+    font-size: 1.8rem;
+    color: var(--color3);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.right h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.right h1 span {
+    color: var(--color3);
+}
+
+.right P span {
+    color: var(--color3);
+}
+
+.right p {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+section {
+    padding: 40rem 0;
+    padding-left: 0px;
+}
+
+.container1 {
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #302e2f;
+    ;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(112, 79, 241);
+    padding-left: 77px;
+    padding-right: 328px;
+    clip-path: polygon(0 0, 80% 5%, 100% 0, 100% 100%, 20% 90%, 0 100%);
+    padding-bottom: 8rem;
+}
+
+.container1 span {
+    color: rgb(110, 155, 228);
+}
+
+.container1 h3 {
+    color: rgb(207, 37, 37);
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+.man {
+    border-radius: 10px;
+    height: 700px;
+    padding-top: 5rem;
+}
+
+.container1 h1 {
+    margin-top: 4rem;
+}
+
+.icons img {
+    margin-left: 1rem;
+    margin-top: 4rem;
+    height: 40px;
+    width: 55px;
+    border: 2px solid #302e2f;
+    ;
+    border-radius: 90%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.about {
+    padding-top: 615px;
+    padding-bottom: 0px;
+}
+
+.container1 h1 {
+    color: #b0da41;;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.man h1 {
+    width: 523px;
+}
+
+section.about.man {
+    height: 450px;
+}
+
+.container1 li {
+    color: rgb(218 142 217);
+    margin-top: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container1 li span {
+    color: brown;
+}
+
+.section-heading {
+    padding: 30px 15px;
+    color: var(--color2);
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    text-align: center;
+    padding-top: 77px;
+}
+
+.section-heading+p {
+    text-align: center;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+section.sevices {
+    color: rgb(9, 30, 30);
+}
+
+.card img {
+    height: 113px;
+    width: 97px;
+    margin-left: 0.3rem;
+    padding-top: 1rem;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 14rem;
+    grid-row-gap: 4rem;
+}
+
+.sevices {
+    padding-top: 0%;
+    padding-bottom: 0px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(157, 199, 241);
+    padding-left: 107px;
+    padding-right: 408px;
+    clip-path: polygon(0 0, 80% 5%, 100% 0, 100% 100%, 20% 90%, 0 100%);
+    padding-bottom: 8rem;
+    background-color: white;
+}
+
+section .card {
+    background-color: black;
+    padding: 2rem 1rem;
+    position: relative;
+    padding-top: 90px;
+    text-align: center;
+}
+
+section .card img {
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.section-heading span {
+    color: rgb(6, 6, 25);
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.section-heading+p span {
+    color: rgb(6, 6, 25);
+    font-family: cursive;
+    font-size: 30px;
+    padding-top: 2rem;
+}
+
+.card span {
+    color: brown;
+    padding-top: 10rem;
+    
+    font-weight: 200;
+}
+
+.card h2 {
+    padding-top: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-family: cursive;
+    line-height: 1.3rem;
+}
+
+.card+p {
+    line-height: 1.6rem;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.freelancer {
+    color: aliceblue;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/code.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 80%, 0 100%);
+    padding-top: 60px;
+    padding-bottom: 129px;
+   
+}
+
+.h1 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    padding-top: 17px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.style {
+    padding-top: 27px;
+    font-family: cursive;
+    padding-bottom: 2rem;
+  
+}
+section.w3-cente{
+    padding-top: 0px;
+ 
+
+}
